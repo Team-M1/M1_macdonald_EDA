@@ -2,6 +2,10 @@
 
 macdonald EDA
 
+## about
+
+맥도날드 데이터셋을 사용하여 분석한 EDA 프로젝트 코드입니다.
+
 ## datasets
 
 [macdonald datasets](https://www.kaggle.com/mcdonalds/nutrition-facts)
