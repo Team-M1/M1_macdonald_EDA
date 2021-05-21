@@ -1,4 +1,3 @@
-import streamlit as st
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
@@ -7,7 +6,7 @@ import matplotlib.pyplot as plt
 class McDonald:
     def __init__(self):
         self.data = pd.read_csv("./menu.csv")
-
+        
     def head(self) -> pd.DataFrame:
         self.data.head(5)
 
@@ -45,9 +44,3 @@ class McDonald:
 
         if contents:
             st.write("음식의 gram수와 칼로리의 상관계수는 0.920")
-
-
-if __name__ == "__main__":
-    mcdonald = McDonald()
-    mcdonald.fig1()
-    mcdonald.fig2()
